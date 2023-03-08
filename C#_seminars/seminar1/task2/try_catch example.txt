@@ -1,0 +1,10 @@
+try
+{
+string[] names = {"Понедельник", "Вторник", "Среда", "Четверг", "Пятница", "Суббота", "Воскресенье"};
+int num = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine(names[num - 1]);
+}
+catch
+{
+Console.WriteLine ("Введено некорректное значение");
+}
